@@ -1,0 +1,21 @@
+{
+  "name": "nassau/kunstmaan-node-settings-bundle",
+  "license": "MIT",
+  "minimum-stability": "alpha",
+  "autoload": {
+    "psr-4": {
+      "Nassau\\KunstmaanNodeSettingsBundle\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Maciej Łebkowski",
+      "email": "m.lebkowski@gmail.com",
+      "homepage": "https://lebkowski.name"
+    }
+  ],
+  "require": {
+    "kunstmaan/bundles-cms": "~3.2",
+    "nassau/registry-compiler": "^1.1"
+  }
+}
