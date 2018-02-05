@@ -1,7 +1,6 @@
 {
   "name": "nassau/kunstmaan-node-settings-bundle",
   "license": "MIT",
-  "minimum-stability": "alpha",
   "autoload": {
     "psr-4": {
       "Nassau\\KunstmaanNodeSettingsBundle\\": "src/"
@@ -15,7 +14,7 @@
     }
   ],
   "require": {
-    "kunstmaan/bundles-cms": "~3.2",
-    "nassau/registry-compiler": "^1.1"
+    "kunstmaan/bundles-cms": "~3.2 | ~4.0 | ~5.0",
+    "nassau/registry-compiler": "~1.1"
   }
 }
